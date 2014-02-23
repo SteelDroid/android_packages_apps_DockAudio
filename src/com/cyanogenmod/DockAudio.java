@@ -1,6 +1,5 @@
 package com.cyanogenmod.dockaudio;
 
-import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -9,10 +8,6 @@ import android.media.AudioManager;
 import android.media.AudioSystem;
 import android.os.Bundle;
 import android.util.Log;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.lang.Thread;
 
 /**************************************************
  * Intents ------------------------> Numeric code *
@@ -26,7 +21,6 @@ import java.lang.Thread;
  * EMU stereo (car dock) ----------> 0x800        *
  *                                                *
  **************************************************/
-
 
 public class DockAudio extends BroadcastReceiver {
     private static final String LOG_TAG = "DockAudio";

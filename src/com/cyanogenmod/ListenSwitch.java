@@ -34,7 +34,6 @@ public class ListenSwitch extends Service {
         Log.i(LOG_TAG, "Dock Audio service stopped");
     }
 
-
     /*
      * Listens for uevent messages from the kernel
      */
